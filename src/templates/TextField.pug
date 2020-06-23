@@ -1,0 +1,7 @@
+div.c-form-field
+  label(:for="name")
+    slot(name="label")
+  div(v-if="this.$slots['errors']")
+    slot(name="errors")
+  input(:type="type" :id="name" :name="name" :value="value"
+    @input="$emit('input', $event.target.value)")
