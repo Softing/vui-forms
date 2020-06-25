@@ -39,10 +39,10 @@ export default {
     this.$bus.$on('form.submit', () => {
       if (this.validate()) {
         this.$emit('submit')
-        console.debug(this)
+      } else {
+          this.$emit('error')
       }
     })
-
     this.$bus.$on('form.reset', () => {
       this.$emit('reset')
     })

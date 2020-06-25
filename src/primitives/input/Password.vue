@@ -6,7 +6,7 @@
 </style>
 
 <script>
-import FieldMixin from '@/components/form/mixins/Field'
+import FieldMixin from '@softing/vui-forms/src/mixins/Field'
 
 export default {
   mixins: [FieldMixin],

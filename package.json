@@ -11,7 +11,7 @@
     "url": "git@github.com:Softing/vui-forms.git"
   },
   "author": "Softing LLC",
-  "license": "Apache License 2.0",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/Softing/vui-forms/issues"
   },
@@ -20,9 +20,15 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.3.1",
+    "eslint-plugin-vue": "^6.2.2",
     "node-sass": "^4.14.1",
     "pug": "^3.0.0",
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^8.0.2"
+  },
+  "dependencies": {
+    "vuelidate": "^0.7.5"
   }
 }

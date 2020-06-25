@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import PrimaryBtn from '@/components/form/primitives/button/PrimaryBtn'
+import PrimaryBtn from '@softing/vui-forms/src/primitives/button/PrimaryBtn'
 
 export default {
   inject: ['$bus'],
