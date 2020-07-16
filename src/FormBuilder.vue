@@ -1,5 +1,5 @@
 <template lang="pug">
-  form(:action="action" :method="method")
+  form(:action="action" :method="method" @submit.prevent)
     div.form-message
     slot(name="header")
     slot
