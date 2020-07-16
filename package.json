@@ -1,6 +1,6 @@
 {
   "name": "@softing/vui-forms",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "VUI Forms package",
   "main": "index.js",
   "scripts": {
